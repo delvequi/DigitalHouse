@@ -18,7 +18,7 @@ a{
     color:yellow;
 }
 .media-picture{
-    background-image: url("Aula08/img/FXE07rFXEAEt9ae.jpg");
+    background-image: url("../FXE07rFXEAEt9ae.jpg");
     height: 400px;
     background-size: cover;
     background-position: center;
