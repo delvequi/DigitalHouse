@@ -19,7 +19,7 @@ a{
 }
 .media-picture{
     height: 400px;
-    background-image: url(FrontEnd/Aula08/img/FXE07rFXEAEt9ae.jpg);
+    background-image: url(/FrontEnd/Aula08/FXE07rFXEAEt9ae.jpg);
     background-size: cover;
     background-position: center;
 }
