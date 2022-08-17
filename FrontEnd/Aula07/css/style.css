@@ -25,5 +25,6 @@ h2 {
 ul {
     background-color: #333333;
     color:rgb(223, 215, 185);
-    padding:-10px;
+    margin-left: 10px;  
+    /*Professor, fiz a alteração pra margin-left: 10px; como foi orientado na aula síncrona e removi o padding:10px; porque usar os dois ao mesmo tempo resultava nos bullets ficarem fora do background escuro novamente */
    }
