@@ -19,7 +19,7 @@ a{
 }
 .media-picture{
     height: 400px;
-    background-image: url(https://ibb.co/xMvbLpM);
+    background-image: url('https://ibb.co/xMvbLpM');
     background-size: cover;
     background-position: center;
 }
