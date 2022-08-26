@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+}
+#navegacao{
+    width: 100%;
+    height: 100px;
+    background-image: url("../img/Logo.png");
+    background-repeat: no-repeat;
+    background-color: #222222;
+    background-position: 1%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:flex;
+    flex-direction: row-reverse;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 55px;
+    /* identical to box height */
+    color: #F3F3F3;
+}
+#navegacao ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content:space-around;
+
+    width: 18%;
+}
+.textoRed{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FC200C;
+}
+.textoWhite{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#delivery{
+    position:relative;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-image: url("../img/delivery.jpg");
+    border-radius: 5px;
+    margin-right:5px;
+    display: flex;
+    justify-content:space-around;
+    padding-top:5px;
+    padding-left:69px;
+    padding-right:70px;
+    box-sizing: content-box;
+    
+}
+#divdoladodireito{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    justify-content: center;
+}
+#top5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
+    background-size: 92px 129px;
+    background-image: url("../img/PizzaFalling.jpg");
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    width: 80%;
+    height: auto;
+    padding-left:51px;
+    box-sizing: content-box;
+
+}
+#top5 li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #222222;
+    list-style: none;
+    
+}
+#cardapio{
+    position:relative;
+    padding-top: 26px;
+    width: 491px;
+    height: 350px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.pizzafallingImg{
+    position: fixed;
+    z-index: 2;
+    width: 490px;
+    height: 350px;
+
+}
+main{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+    align-content:space-between;
+    height:auto;
+    width: 100%;
+    margin-bottom:0.5%;
+    margin-top:1.5%;   
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content:space-evenly;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #F3F3F3;
+    margin-top:1.5%;
+    padding-top:19px;
+    padding-left:20px;
+    background-image: url("../img/Logo.png");
+    background-repeat: no-repeat;
+    background-position:95%;
+    
+
+}
+
+/*sei que o código poderia ter ficado um pouco mais organizado mas fiz em algumas horas T T, tentei meu melhor - espero revisar esse exercício no futuro e refaze-lo*/
