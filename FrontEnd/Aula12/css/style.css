@@ -253,7 +253,7 @@ h2{
     line-height: 23px;
     color: #FFFFFF;
     background-color: #F0A83E;
-    background-image: url("/img/enviar-correo\ 1.png");
+    background-image: url("../img/enviar-correo\ 1.png");
     background-position: 23px;
     background-repeat: no-repeat;
     padding: 20px 262px 17px 73px;
@@ -311,7 +311,7 @@ main{
     width: 100%;
     height: 350px;
     background-color: #3C2313;
-    background-image: url("/img/Logo.png");
+    background-image: url("../img/Logo.png");
     background-repeat: no-repeat;
     background-position-x: 80%;
     background-position-y: 60%;
