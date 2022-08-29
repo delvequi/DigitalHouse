@@ -1,0 +1,375 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#bar{
+    background-color: #222222;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-start;
+}
+div#offers{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #F3F3F3;
+    margin-left: 90px;
+    margin-right: 537px;
+}
+div#language{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #F3F3F3;
+    margin-right: 10px;
+}
+div#currency{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #F3F3F3;
+    padding-right: 50px;
+}
+nav{
+    width: 100%;
+    height: 62px;
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+a#categorias{
+    padding-right:20px;
+}
+a#pet{
+    padding-right:10px;   
+}
+a#quemsomos{
+    padding-right: 7px;
+}
+.logoImg{
+    margin-right:434px;
+    margin-left: 40px;
+}
+#comedouros{
+    background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:center;
+    height: 409px;
+    width: 100%;    
+    display: flex;
+    justify-content:right;
+    padding-right:50px;
+}
+#destaque{
+    position: absolute;
+    margin-top: 155px;
+    height:146px;
+    width: 365px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    background-color: #FFFFFF;
+    background-size: 365px 54px;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: #3C2313;
+    padding: 12px;
+    align-self: center;
+}
+#produtosdestacados{
+    height: 959px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.produt1{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.pDestacados{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    color: #3C2313;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.itensPet{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #666666;
+    margin-bottom:49px;
+}
+#cards{
+    height: 385px;
+    width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contato{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: #3C2313;
+    border-radius: 15px;
+    width: 340px;
+    height: 40px;
+    display: flex;
+    text-align:left;
+    align-items: center;
+    padding-left:14px;
+    margin-bottom:10px;
+}
+#clean{
+    background: #8A8787;
+    border-radius: 15px;
+    width: 110px;
+    height: 34px;
+    padding:8px 38px 7px 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-align: center;
+}
+#send{
+    background: #F0A83E;
+    border-radius: 15px;
+    width: 110px;
+    height: 34px;
+    padding:8px 38px 7px 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-align: center;
+}
+.buttons1{
+    width: 1024px;
+    height:34px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+#clean{
+    align-items: center;
+    margin-right: 6px;
+    height:34px;
+    width: 110px;
+}
+#inscrever{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    background-image: url("/img/enviar-correo\ 1.png");
+    background-position: 23px;
+    background-repeat: no-repeat;
+    padding: 20px 262px 17px 73px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+main{
+    height:959px;
+    width: 100%;
+}
+.mailf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#mailform{
+    z-index: 2;
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+    color: #A0A0A0;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    width: 271px;
+    height: 40px;
+    align-items: center;
+    padding-left: 8px;
+    margin-left: 631px;
+}
+#mailsend{
+    z-index:2;
+    width: 70px;
+    height: 34px;
+    background: #3C2313;
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+    color: #FFFFFF;
+    padding: 12px 24px 11px 20px ;
+    margin-left:5px;
+    display: flex;
+}
+.faleconosco{
+    width: 100%;
+    height: 350px;
+    background-color: #3C2313;
+    background-image: url("/img/Logo.png");
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: 60%;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+.testando{
+    display: flex;
+
+}
+.titulo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-bottom:4px;
+}
+.subtitulo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    color: #8A8787;
+    list-style-type: none;
+    margin-top:4px;
+}
+.imgspace{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    height: 198px; 
+}
+#ListaC{
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.copyright{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    background: #222222;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
