@@ -55,6 +55,15 @@ nav{
     flex-wrap: wrap;
     justify-content:space-between;
 }
+a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.813rem;
+    line-height: 0.938rem;
+
+    color: #FFFFFF;
+}
 a#categorias{
     padding-right:1.25rem;
 }
