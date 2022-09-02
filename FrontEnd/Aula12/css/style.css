@@ -73,7 +73,7 @@ a#quemsomos{
     margin-left: 2.5rem;
 }
 #comedouros{
-    background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-image: url("./img/bowl-and-pet-daities-on-green-background\ 1.png");
     background-repeat: no-repeat;
     background-size:cover;
     background-position:left;
@@ -256,7 +256,7 @@ h2{
     line-height: 1.438rem;
     color: #FFFFFF;
     background-color: #F0A83E;
-    background-image: url("/img/enviar-correo.png");
+    background-image: url("./img/enviar-correo.png");
     background-position: 1.438rem;
     background-repeat: no-repeat;
     padding: 1.25rem 16.375rem 1.063rem 4.563rem;
@@ -314,7 +314,7 @@ main{
     width: 100vw;
     height: 21.875rem;
     background-color: #3C2313;
-    background-image: url("../img/Logo.png");
+    background-image: url("./img/Logo.png");
     background-repeat: no-repeat;
     background-position-x: 80%;
     background-position-y: 60%;
@@ -347,20 +347,20 @@ main{
     margin-top:0.25rem;
 }
 .Icono{
-    background-image: url("/img/Icono.png");
+    background-image: url("./img/Icono.png");
     width: 4.125rem;
     height:4.125rem;
     margin-bottom: 3rem;
 }
 .Icono2{
-    background-image: url("/img/Icono2.png");
+    background-image: url("./img/Icono2.png");
     width: 4.125rem;
     height:4.125rem;
     margin-bottom: 3rem;
     
 }
 .Icono3{
-    background-image: url("/img/mail.png");
+    background-image: url("./img/mail.png");
     width: 4.125rem;
     height:4.125rem;
     margin-bottom: 3rem;   
@@ -441,7 +441,7 @@ main{
         display:none;
     }
     #comedouros{
-        background-image: url("/img/bowl-and-pet-daities-on-green-background\ 1.png");
+        background-image: url("./img/bowl-and-pet-daities-on-green-background\ 1.png");
         background-repeat: no-repeat;
         background-size:cover;
         background-position:left;
