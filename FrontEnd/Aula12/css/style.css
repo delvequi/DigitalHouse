@@ -1,12 +1,12 @@
 *{
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 #bar{
     background-color: #222222;
-    width: 100%;
-    height: 40px;
+    width: 100vw;
+    height: 2.5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,36 +17,36 @@ div#offers{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 40px;
+    font-size: 1.125rem;
+    line-height: 2.5rem;
     /* identical to box height */
     color: #F3F3F3;
-    margin-left: 90px;
-    margin-right: 537px;
+    margin-left: 5.625rem;
+    margin-right: 20.9765625vw;
 }
 div#language{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 40px;
+    font-size: 0.75rem;
+    line-height: 2.5rem;
     /* identical to box height */
     color: #F3F3F3;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 div#currency{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 40px;
+    font-size: 0.75rem;
+    line-height: 2.5rem;
     /* identical to box height */
     color: #F3F3F3;
-    padding-right: 50px;
+    padding-right: 3.125rem;
 }
 nav{
-    width: 100%;
-    height: 62px;
+    width: 100vw;
+    height: 3.875rem;
     background-color: #F0A83E;
     display: flex;
     flex-direction: row;
@@ -55,39 +55,39 @@ nav{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 0.625rem;
+    line-height: 0.938rem;
     color: #FFFFFF;
 }
 a#categorias{
-    padding-right:20px;
+    padding-right:1.25rem;
 }
 a#pet{
-    padding-right:10px;   
+    padding-right:0.625rem;   
 }
 a#quemsomos{
-    padding-right: 7px;
+    padding-right: 0.438rem;
 }
 .logoImg{
-    margin-right:434px;
-    margin-left: 40px;
+    margin-right:16.953125vw;
+    margin-left: 2.5rem;
 }
 #comedouros{
     background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
     background-repeat: no-repeat;
-    background-size:100%;
-    background-position:center;
-    height: 409px;
-    width: 100%;    
+    background-size:cover;
+    background-position:left;
+    height: 43.64994vh;
+    width: 100vw;    
     display: flex;
     justify-content:right;
-    padding-right:50px;
+    padding-right:3.125rem;
 }
 #destaque{
     position: absolute;
-    margin-top: 155px;
-    height:146px;
-    width: 365px;
+    margin-top: 9.688rem;
+    height: 9.125rem;
+    width: 14.2578125vw;
     display:flex;
     flex-direction: column;
     align-items:center;
@@ -97,33 +97,33 @@ h1{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 1.875rem;
+    line-height: 2.188rem;
     text-align: center;
     color: #3C2313;
     background-color: #FFFFFF;
-    background-size: 365px 54px;
-    border-radius: 5px;
-    padding: 20px 20px;
+    background-size: 22.813rem 3.375rem;
+    border-radius: 0.313rem;
+    padding: 1.25rem 1.25rem;
 }
 h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.188rem;
     /* identical to box height */
     text-align: center;
     color: #3C2313;
-    padding: 12px;
+    padding: 0.75rem;
     align-self: center;
 }
 #produtosdestacados{
-    height: 959px;
-    width: 100%;
+    height: 59.938rem;
+    width: 100vw;
     display: flex;
     justify-content:center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
@@ -138,132 +138,135 @@ h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
+    font-size: 2.5rem;
+    line-height: 2.938rem;
     /* identical to box height */
     color: #3C2313;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding-top: 0.313rem;
+    padding-bottom: 1.25rem;
 }
 .itensPet{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 0.938rem;
+    line-height: 1.125rem;
     /* identical to box height */
     color: #666666;
-    margin-bottom:49px;
+    margin-bottom:3.063rem;
 }
 #cards{
-    height: 385px;
-    width: 1024px;
+    height: 41.088580vh;
+    width: 40vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 .contato{
-    height: 240px;
+    height: 22rem;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     align-items: center;
+    text-align: left;
 }
 #contact{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 1.563rem;
+    line-height: 1.813rem;
     color: #3C2313;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 .form{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 9px;
-    line-height: 11px;
+    font-size: 0.563rem;
+    line-height: 0.688rem;
     /* identical to box height */
     color: #FFFFFF;
     background: #3C2313;
-    border-radius: 15px;
-    width: 340px;
-    height: 40px;
+    border-radius: 0.938rem;
+    width: 15.71875vw;    height: 2.5rem;
     display: flex;
     text-align:left;
     align-items: center;
-    padding-left:14px;
-    margin-bottom:10px;
+    padding-left:1.563rem;
+    margin-bottom:0.625rem;
 }
 #clean{
     background: #8A8787;
-    border-radius: 15px;
-    width: 110px;
-    height: 34px;
-    padding:8px 38px 7px 22px;
+    border-radius: 0.938rem;
+    width: 3.90625vw;
+    height: 2.125rem;
+    padding:0.5rem 2.375rem 0.438rem 1.375rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.188;
     /* identical to box height */
     color: #FFFFFF;
     text-align: center;
 }
 #send{
     background: #F0A83E;
-    border-radius: 15px;
-    width: 110px;
-    height: 34px;
-    padding:8px 38px 7px 22px;
+    border-radius: 0.938rem;
+    width: 4.296875vw;
+    height: 2.125rem;
+    padding:0.5rem 2.375rem 0.438rem 1.375rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.188rem;
     /* identical to box height */
     color: #FFFFFF;
     text-align: center;
 }
 .buttons1{
-    width: 1024px;
-    height:34px;
+    width: 40vw;
+    height:2.125rem;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 75px;
+    margin-bottom: 4.688rem;
+    margin-top: 1rem;
 }
 #clean{
     align-items: center;
-    margin-right: 6px;
-    height:34px;
-    width: 110px;
+    margin-right: 0.375rem;
+    height:2.125rem;
+    width: 6.875rem;
 }
 #inscrever{
     position: absolute;
-    width: 100%;
-    height: 60px;
+    width: 100vw;
+    height: 3.75rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
     color: #FFFFFF;
     background-color: #F0A83E;
-    background-image: url("../img/enviar-correo\ 1.png");
-    background-position: 23px;
+    background-image: url("/img/enviar-correo.png");
+    background-position: 1.438rem;
     background-repeat: no-repeat;
-    padding: 20px 262px 17px 73px;
+    padding: 1.25rem 16.375rem 1.063rem 4.563rem;
     display: flex;
     flex-direction: row;
     align-content: space-between;
 }
 main{
-    height:959px;
-    width: 100%;
+    height:59.938rem;
+    width: 100vw;
 }
 .mailf{
     display: flex;
@@ -278,45 +281,45 @@ main{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 9px;
-    line-height: 11px;
+    font-size: 0.563rem;
+    line-height: 0.688rem;
     /* identical to box height */
     color: #A0A0A0;
     background-color: #FFFFFF;
-    border-radius: 15px;
-    width: 271px;
-    height: 40px;
+    border-radius: 0.938rem;
+    width: 10.5859375vw;
+    height: 2.5rem;
     align-items: center;
-    padding-left: 8px;
-    margin-left: 631px;
+    padding-left: 0.5rem;
+    margin-left: 39.438rem;
 }
 #mailsend{
     z-index:2;
-    width: 70px;
-    height: 34px;
+    width: 4.375rem;
+    height: 2.125rem;
     background: #3C2313;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 9px;
-    line-height: 11px;
+    font-size: 0.563rem;
+    line-height: 0.688rem;
     /* identical to box height */
     color: #FFFFFF;
-    padding: 12px 24px 11px 20px ;
-    margin-left:5px;
+    padding: 0.75rem 1.5rem 0.688rem 1.25rem;
+    margin-left:0.313rem;
     display: flex;
 }
 .faleconosco{
-    width: 100%;
-    height: 350px;
+    width: 100vw;
+    height: 21.875rem;
     background-color: #3C2313;
     background-image: url("../img/Logo.png");
     background-repeat: no-repeat;
     background-position-x: 80%;
     background-position-y: 60%;
-    padding-top: 30px;
-    padding-left: 70px;
+    padding-top: 1.875rem;
+    padding-left: 4.375rem;
 }
 .testando{
     display: flex;
@@ -326,50 +329,271 @@ main{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
     color: #FFFFFF;
     list-style-type: none;
-    margin-bottom:4px;
+    margin-bottom:0.25rem;
 }
 .subtitulo{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
     /* identical to box height */
     color: #8A8787;
     list-style-type: none;
-    margin-top:4px;
+    margin-top:0.25rem;
 }
-.imgspace{
-    margin-top:20px;
-    margin-bottom: 20px;
+.Icono{
+    background-image: url("/img/Icono.png");
+    width: 4.125rem;
+    height:4.125rem;
+    margin-bottom: 3rem;
+}
+.Icono2{
+    background-image: url("/img/Icono2.png");
+    width: 4.125rem;
+    height:4.125rem;
+    margin-bottom: 3rem;
+    
+}
+.Icono3{
+    background-image: url("/img/mail.png");
+    width: 4.125rem;
+    height:4.125rem;
+    margin-bottom: 3rem;   
 }
 .icons{
-    display: flex;
     flex-direction: column;
-    height: 198px; 
+    display:flex;
+
 }
 #ListaC{
-    height: 268px;
+    height: 16.75rem;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    margin-left: 25px;
-    margin-top: 20px;
+    margin-left: 1.563rem;
+    margin-top: 1.25rem;
 }
 .copyright{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
     color: #FFFFFF;
     background: #222222;
-    width: 100%;
-    height: 30px;
+    width: 100vw;
+    height: 1.875rem;
     text-align: center;
-    padding: 10px;
+    padding: 0.625rem;
 }
+.menuicon{
+    display:none;
+}
+@media(max-width:480px){
+    #bar{
+        display:none;
+    }
+    #navlinks{
+        display:none;
+    }
+    .menuicon{
+        height:1.25rem;
+        width:1.25rem ;
+        display: inline-block;
+        margin-left: 15.828125vw;
+    }
+    .comedouros{
+        height:27.5rem;
+    }
+    nav{
+        width: 100vw;
+        height: 3.375rem;
+        background-color: #F0A83E;
+
+    }
+    #destaque{
+        height: 9.125rem;
+        width: 25.813rem;
+        align-items: flex-end;
+        padding:3.438rem 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 29px;
+        text-align: center;
+  
+    }
+    h1{
+        margin-bottom:2.438rem;
+        padding:1rem 1.75rem;
+        color: rgb(60, 35, 19);
+        background-color: rgb(255, 255, 255);
+        background-size: 14.2578125vw 3.375rem;
+        border-radius: 0.313rem;
+        padding: 1rem 2.25rem;
+    }
+    h2{
+        display:none;
+    }
+    #comedouros{
+        background-image: url("/img/bowl-and-pet-daities-on-green-background\ 1.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:left;
+        height: 27.5rem;
+        width: 100vw;    
+        display: flex;
+        justify-content:right;
+        padding-right:3.125rem;
+    }
+    .pawprint{
+        width: 5.649rem;
+        height: 5.247rem;
+        margin:1.438rem;
+    }
+    .pDestacados{
+        text-align: center;
+        font-size: 3.3rem;
+        line-height: 2.938rem;
+    }
+    .itensPet{
+        margin: 1.506rem;
+    }
+    #cards{
+        align-content: space-around;
+        justify-content: center;
+        height: 65.438rem;
+        width: 14.938rem;
+        margin:2.5rem;
+    }
+    .imgspace{
+        margin:1.5rem;
+    }
+    #produtosdestacados{
+    flex-wrap: nowrap;  
+    align-items: center;  
+    height: auto;
+    }
+    .contato {
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    }
+    #contact {
+    margin-top: 2.25rem;
+    margin-bottom: 1.25rem;
+    }
+    .form{
+    height: 2.5rem;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding-left: 1rem;
+    margin-bottom: 0.625rem;
+    width: 75.625vw;
+    height:2.5rem;
+    }
+    .buttons1 {
+    width: 65.78125vw;
+    height: 2.125rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-content: center;
+    margin-bottom: 2.813rem;
+    
+    }
+    #clean{
+        padding:0.813rem 4.688rem;
+        height:2.813rem;
+        width: 12.438rem;
+        border-radius: 1.563rem;
+        
+    }
+    #send{
+        padding:0.813rem 4.688rem;
+        height:2.813rem;
+        width: 12.438rem;  
+        border-radius: 1.563rem;
+    }
+    footer{
+        height:27.688rem;
+        width:100vw;
+    }
+    #inscrever{
+        width:100vw;
+        height:6.6rem;
+        font-size: 1.25rem;
+        padding:0.875rem 3.25rem 4rem 5rem;
+    }
+    #inscrever{
+        background-position: 0.71rem 0.3rem;
+    }
+    #mailform{
+        margin:3.188rem 0.563rem 0.625rem 0.938rem;
+        align-items:center;
+        justify-content: flex-start;
+        width: 16.313rem;
+        height: 2.5rem;
+        font-size: 0.625rem;
+        padding-left: 0.938rem;
+    }
+    #mailsend{
+        margin:3.375rem 1.813rem 0.75rem 0.563rem;
+        align-items: center;
+        justify-content: flex-start;
+        width: 6.25rem;
+        height: 2.5rem;
+        padding-left:1.875rem;
+        font-size: 0.938rem;
+        
+    }
+    .faleconosco{
+        background-position: 50% 5%;
+        }
+    .icons{
+        justify-content: center;
+        margin-top:2.723rem;
+    }
+    .Icono{
+        width: 4.25rem;
+        height: 4.215rem;
+        background-repeat: no-repeat;
+        margin-bottom:1.213rem;
+    }
+    .Icono2{
+        width: 4.25rem;
+        height: 4.215rem;
+        background-repeat: no-repeat;
+        margin-bottom:1.213rem;
+    }    
+    .Icono3{
+        width: 4.25rem;
+        height: 4.215rem;
+        background-repeat: no-repeat;
+        margin-bottom:1.213rem;
+    }
+    .titulo{
+        font-size:1.5rem;
+        margin-bottom:0.324rem;
+    }
+    .subtitulo{
+        font-size:0.813rem;
+    }
+    #ListaC{
+        justify-content: space-around;
+
+    }
+    .copyright{
+        font-size:0.813rem;
+    }
+   
+}
+
