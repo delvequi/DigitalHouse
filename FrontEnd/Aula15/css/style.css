@@ -118,7 +118,7 @@ p{
     top: 20px;
 }
 .card.batman{
-    background-image: url("./img/dc1.jpg");
+    background-image: url("../img/dc1.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     padding: 10px 20px;
@@ -145,13 +145,13 @@ p{
     max-width: 6.71875vw;
 }
 .card.supermann{
-    background-image: url("./img/dc4.png");
+    background-image: url("../img/dc4.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .card.mulherm{
-    background-image: url("./img/dc3.png");
+    background-image: url("../img/dc3.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -163,7 +163,7 @@ p{
     max-width: 6.71875vw;
 }
 .card.arlequina{
-    background-image: url("./img/dc2.png");
+    background-image: url("../img/dc2.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
