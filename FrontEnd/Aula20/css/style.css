@@ -306,6 +306,9 @@ h3{
     width: 781px;
     margin-bottom: 28px;
     }
+    button{
+        border:none;
+    }
     .imgofertas {
         display: flex;
         flex-direction: column;
@@ -369,7 +372,7 @@ h3{
         margin-bottom: 24px;
     }
     h2{
-        width: 800px;
+        width: 100%;  
         text-align: center;
     }
     section.produtosestrelas {
@@ -395,9 +398,156 @@ h3{
         margin-right:523px;
     }
 }
+  
+@media(min-width:1025px){
+    header{
+        height: 100px;
+        width: 100%;
+        background-color: #222222;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav ul{
+        display: flex;
+        height: 40px;
+        width: 400px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         
+    }
+    nav ul li{
+    display: flex;
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F3F3F3;
+    }
 
 
+    nav ul li .cart{
+    display: block;
+    background-image: url("../img/cart.png");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    margin-left:42px;
+    }
+    .imgofertas{
+        display: flex;
+        flex-direction: column;
+        height: 512px;
+        width: 100%;
+        background-repeat: no-repeat;
+        align-items: center;
+        background-size: cover;
+        justify-content: space-evenly;
+    }
+    p.texto{
+    width: 781px;
+    margin-bottom: 28px;
+    }
+    button{
+        border:none;
+    }
+    .imgofertas {
+        display: flex;
+        flex-direction: column;
+        height: 512px;
+        width: 100vw;
+        background-repeat: no-repeat;
+        justify-content: center;
+    }
+    .jogos {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-between;
+        width: 855px;
+    }
+    .jogo1{
+        width: 265px;
+        height: 322px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:0;
+    }
+    .section.products {
+        margin-bottom: 78px;
+    }
+    p.banner{
+        z-index: 2;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 18px;
+        /* identical to box height */
+        color: #F3F3F3;
+        width: 360px;
+        height: 135px;
+        background-image: url("../img/cadeiras-gamer.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 53px;
+        margin-bottom: 24px;
+    }
+    p.pcs{
+        z-index: 2;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 18px;
+        /* identical to box height */
+        color: #F3F3F3;
+        width: 360px;
+        height: 135px;
+        background-image: url("../img/cadeiras-gamer.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 53px;
+        margin-bottom: 24px;
+    }
+    h2{
+        width: 100%;       
+        text-align: center;
+    }
+    section.produtosestrelas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 85px;
+    }
+    p.banner{
+        margin-right:100px;
+    }
+    footer {
+        height: 205px;
+        background-color: #222222;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    footer div.logo{
+        margin-right:523px;
+    }      
+
+}
 
 
 
