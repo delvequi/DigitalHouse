@@ -5,19 +5,21 @@ Na função construtora crie o método calcularMedia que retorna a média de sua
 Também terá um método chamado faltas, que simplesmente aumenta o número de faltas em 1. 
 Crie alguns alunos para testar a sua função construtora. 
 */
-function Aluno(nome, qtdFaltas, notas){
-    this.nome = nome
-    this.qtdFaltas = qtdFaltas
-    this.notas = notas
-    this.calcularMedia = function(){
+class Aluno {
+    constructor (nome, qtdFaltas, notas){
+      this.nome = nome
+      this.qtdFaltas = qtdFaltas
+      this.notas = notas
+    }
+    calcularMedia () {
         let nota = 0;
 
         for (let i = 0; i < (this.notas).length; i++) {
         nota += (this.notas)[i]; 
        }
-        return (nota / (this.notas).length).toFixed();
+        return (nota / (this.notas).length).toFixed(1);
     }
-    this.faltas = function() {
+    faltas () {
     this.qtdFaltas += 1;
     }
 }
@@ -61,7 +63,8 @@ Para ser aprovado, o aluno tem que ter uma média igual ou acima da nota de apro
 e ter menos faltas que faltas máximas. 
  Se tiver a mesma quantidade, tem que estar 10% acima da nota de aprovação.*/
 /*Passo 6 (2 pontos)
-Crie um método para o objeto curso que percorra a lista de estudantes e retorne um array de booleanos com os resultados se os alunos aprovaram ou não. */
+Crie um método para o objeto curso que percorra a lista de estudantes 
+e retorne um array de booleanos com os resultados se os alunos aprovaram ou não. */
 
 adicionarAluno(nome, qtdFaltas, notas) {
     let novoAluno = new Aluno(nome, qtdFaltas, notas);
@@ -70,11 +73,13 @@ adicionarAluno(nome, qtdFaltas, notas) {
 
 
 aprovacao (alunos) {
-  let nota = (alunos.notas.reduce((acc, nota)=>{
-    return (acc + nota);
-  })/ alunos.notas.length).toFixed(); 
+  // let nota = (alunos.notas.reduce((acc, nota)=>{
+  //   return (acc + nota);
+  // })/ alunos.notas.length); 
+  let nota = alunos.calcularMedia()
   if (alunos.qtdFaltas == curso.faltasMaximas && nota >= curso.notaDeAprovacao * 1.1) {
-    return true
+    let aprovado = true
+    return aprovado
   } else if (alunos.qtdFaltas < curso.faltasMaximas && nota >= curso.notaDeAprovacao) {
     return true
   } else{
@@ -104,4 +109,4 @@ console.log(curso.aprovacao(aluno4))
 
 // ;
 
-// console.log(curso.aprovacao(aluno1))
+console.log(curso.aprovacao(aluno1))
