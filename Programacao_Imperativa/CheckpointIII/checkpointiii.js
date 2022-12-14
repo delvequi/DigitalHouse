@@ -49,19 +49,19 @@ const curso = {
     nomeDoCurso: 'DH',
     notaDeAprovacao: 7,
     faltasMaximas: 5,
-    listaEstudantes: alunos, // array contendo lista de alunos criada na linha 29 e alunos adicionados na linha 31
+    listaEstudantes: alunos, // array contendo lista de alunos criada na linha 31 e alunos adicionados na linha 33
 
 
 /*Passo 4 (1,5 pontos)
 Crie o método que permite adicionar alunos à lista do curso, ou seja, 
 quando chamamos nosso método em nosso objeto curso, 
 deverá adicionar um aluno a mais na propriedade lista de estudantes do objeto curso.*/
-/*Passo 5 (2 pontos)
-Crie um método para o objeto curso que receba um aluno (como parâmetro) 
-e retorne true se ele aprovou no curso ou false em caso de reprovação. 
-Para ser aprovado, o aluno tem que ter uma média igual ou acima da nota de aprovação 
-e ter menos faltas que faltas máximas. 
- Se tiver a mesma quantidade, tem que estar 10% acima da nota de aprovação.*/
+// Passo 5 (2 pontos)
+// Crie um método para o objeto curso que receba um aluno (como parâmetro) 
+// e retorne true se ele aprovou no curso ou false em caso de reprovação. 
+// Para ser aprovado, o aluno tem que ter uma média igual ou acima da nota de aprovação 
+// e ter menos faltas que faltas máximas. 
+//  Se tiver a mesma quantidade, tem que estar 10% acima da nota de aprovação.
 /*Passo 6 (2 pontos)
 Crie um método para o objeto curso que percorra a lista de estudantes 
 e retorne um array de booleanos com os resultados se os alunos aprovaram ou não. */
@@ -72,15 +72,12 @@ adicionarAluno(nome, qtdFaltas, notas) {
 },
 
 
-aprovacao (alunos) {
-  // let nota = (alunos.notas.reduce((acc, nota)=>{
-  //   return (acc + nota);
-  // })/ alunos.notas.length); 
-  let nota = alunos.calcularMedia()
-  if (alunos.qtdFaltas == curso.faltasMaximas && nota >= curso.notaDeAprovacao * 1.1) {
+aprovacao (aluno) {
+  let nota = aluno.calcularMedia()
+  if (aluno.qtdFaltas == curso.faltasMaximas && nota >= curso.notaDeAprovacao * 1.1) {
     let aprovado = true
     return aprovado
-  } else if (alunos.qtdFaltas < curso.faltasMaximas && nota >= curso.notaDeAprovacao) {
+  } else if (aluno.qtdFaltas < curso.faltasMaximas && nota >= curso.notaDeAprovacao) {
     return true
   } else{
     return false
@@ -98,15 +95,8 @@ aprovadosReprovados(){
 }
 
 curso.adicionarAluno('Carla', 1, [4,5,9])
+
+console.log(curso.aprovacao(aluno1))
 console.log(curso.listaEstudantes)
 
 console.log(curso.aprovadosReprovados())
-console.log(curso.aprovacao(aluno4))
-
-
-
-// }
-
-// ;
-
-console.log(curso.aprovacao(aluno1))
