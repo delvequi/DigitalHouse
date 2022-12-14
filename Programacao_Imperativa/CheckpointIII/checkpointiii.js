@@ -1,6 +1,6 @@
-/*Passo 1 (1,5 pontos)
+/*Passo 1 (1,5 pontos) -> Na linha 8
 Crie uma função construtora ou Classe Aluno que tenha como atributos: nome (string), quantidade de faltas (number) e notas (array de números). 
-Passo 2 (1,5 pontos)
+Passo 2 (1,5 pontos) -> Na linha 14
 Na função construtora crie o método calcularMedia que retorna a média de suas notas. 
 Também terá um método chamado faltas, que simplesmente aumenta o número de faltas em 1. 
 Crie alguns alunos para testar a sua função construtora. 
@@ -45,6 +45,7 @@ nota de aprovação (number), faltas máximas (number)
 e uma lista de estudantes (um array composto pelos alunos criados no passo 2).
 */
 
+// Passo 3
 const curso = {
     nomeDoCurso: 'DH',
     notaDeAprovacao: 7,
@@ -66,12 +67,13 @@ deverá adicionar um aluno a mais na propriedade lista de estudantes do objeto c
 Crie um método para o objeto curso que percorra a lista de estudantes 
 e retorne um array de booleanos com os resultados se os alunos aprovaram ou não. */
 
+// Passo 4
 adicionarAluno(nome, qtdFaltas, notas) {
     let novoAluno = new Aluno(nome, qtdFaltas, notas);
     this.listaEstudantes.push(novoAluno)
-},
+}, 
 
-
+// Passo 5
 aprovacao (aluno) {
   let nota = aluno.calcularMedia()
   if (aluno.qtdFaltas == curso.faltasMaximas && nota >= curso.notaDeAprovacao * 1.1) {
@@ -83,6 +85,7 @@ aprovacao (aluno) {
   
 },
 
+// Passo 6
 aprovadosReprovados(){
   let situacao = [];
   this.listaEstudantes.forEach((alunos, index) =>{
@@ -96,7 +99,7 @@ aprovadosReprovados(){
 
 curso.adicionarAluno('Carla', 1, [4,5,9])
 
-console.log(curso.aprovacao(aluno1))
-console.log(curso.listaEstudantes)
+console.log(curso.aprovacao(aluno1)) // Testando a aprovação 
+console.log(curso.listaEstudantes) // Testando a lista de estudantes
 
-console.log(curso.aprovadosReprovados())
+console.log(curso.aprovadosReprovados()) //Testando a aprovação de todos os alunos
