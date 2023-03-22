@@ -4,6 +4,7 @@
     margin: 0px;
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(243, 169, 233);
+    font-size: 1rem;
 }
 body {
     width: 100vw;
@@ -14,7 +15,7 @@ body {
     align-items: center;
 }
 #form {
-    width: 300px;
+    width: 20vw;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -24,7 +25,7 @@ body {
     background-color: rgb(237, 232, 255);
 }
 #comment{
-    width: 250px;
+    width: 18vw;
     height: 200px;
     text-align: center;
 }
@@ -32,19 +33,18 @@ body {
     padding: 10px;
 }
 button{
-    width: 100px;
+    width: 150px;
     height: 40px;
     background-color: rgb(255, 216, 228);
     border: none;
     border-radius: 5px;
 }
 p{
-    font-size: 0.8rem;
     line-height: 1.5rem;
     display: flex;
-    width: 320px;
+    width: 20vw;
     margin: 10px;
-    padding: 10px;
+    padding: 0px;
     height: auto;
     flex-direction: column;
     flex-wrap: wrap;
